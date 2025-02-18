@@ -12,7 +12,7 @@ export function createRouter(){
 
 export default function createApp(){
     const app = createRouter();
-    app.use('*', pinoLogger);
+    // app.use('*', pinoLogger);
     app.notFound(notFoundResponse);
     app.onError(internalServerErrorResponse);   
     // app.onError((err, c) => {
