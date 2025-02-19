@@ -12,6 +12,8 @@
     "drizzle-zod": "npm:drizzle-zod@0.5.1",
     "pg": "npm:pg@^8.13.1",
     "scalar":"npm:@scalar/hono-api-reference",
-    "stoker": "npm:stoker@^1.4.2"
+    "stoker": "npm:stoker@^1.4.2",
+    "@repo/pino-logger/": "../../packages/pino-logger/dist/" ,
+    "pino": "npm:pino"
   }
 }
